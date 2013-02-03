@@ -1,0 +1,132 @@
+﻿body
+{
+	font-family: Verdana;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.btn
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 5px;
+	border: 1px solid #000;
+	width: 230px;
+	text-align: center;
+	background: #DDD;
+	float: left;
+}
+
+.formLayout
+{
+	float: left;
+	background-color: #f3f3f3;
+	border: solid 1px #a1a1a1;
+	padding: 10px;
+	width: 400px;
+}
+
+.formLayout label
+{
+	display: block;
+	width: 100px;
+	float: left;
+	margin-bottom: 10px;
+	text-align: right;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+
+.formLayout input
+{
+	display: block;
+	width: 280px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.formLayout2
+{
+	float: left;
+	background-color: #f3f3f3;
+	border: solid 1px #a1a1a1;
+	padding: 10px;
+	width: 400px;
+}
+
+.formLayout2 label
+{
+	display: block;
+	width: 100px;
+	float: left;
+	margin-bottom: 10px;
+	text-align: right;
+	padding-right: 20px;
+	margin-bottom: 10px;
+}
+
+.formLayout2 input
+{
+	display: block;
+	width: 80px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+table
+{
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0;
+}
+
+#menu
+{
+	margin: 10px;
+	padding-bottom: 5px;
+	border-bottom: dashed 2px #DDD;
+}
+
+#submenu
+{
+	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+td, th
+{
+	margin: 0px;
+	padding: 2px 8px;
+	border-right: solid 1px black;
+}
+
+tr:nth-child(odd)    { background-color:#ddd;}
+tr:nth-child(even)    { background-color:#fff; }
+
+br
+{
+	clear: left;
+}
+
+.error
+{
+	color: #A00;
+	background: #DED;
+	border: solid 2px #A00;
+	padding: 10px;
+}
+
+.warning
+{
+	color: #000;
+	background: #EED;
+	border: solid 2px #000;
+	padding: 10px;
+}
